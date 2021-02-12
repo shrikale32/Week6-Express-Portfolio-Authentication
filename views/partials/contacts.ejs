@@ -1,0 +1,65 @@
+
+
+
+<% if(title=="Contacts") {%>
+<div class="container-fluid">
+     <div class="row">
+        <div class="col-6"> 
+      <div class="mainform">
+      <form class="getUserInfo"action="/contacts">
+      <br>
+        <h1>Contact Me</h1>
+        <div class="info">
+          <input class="form_element" type="text" id="name" placeholder="Full name">
+          <br>
+          <input class="form_element" type="text" id="email" placeholder="Email">
+          <br>
+          <input class="form_element" type="text" id="phoneNo" placeholder="Phone number">
+        </div>
+        <p>Message</p>
+        <div>
+          <textarea id="message" rows="2"></textarea>
+        </div>
+        <button type="button" onclick="displayValues();">Submit</button>
+      </form>
+    </div>
+    </div>
+     <div class="col-4"> 
+     <h1 style="font-weight:500">Contact Details</h1>
+     <br>
+     <h5> Name : Shrikant Kale </h5>
+     <br>
+     <h5> Email: skale5@my.centennialcollege.ca</h5>
+     <br>
+     <h5> Alternate Email: shrikale32@gmail.com</h5>
+     <br>
+     <h5> Phone: +91-8698271337</h5>
+     <br>
+     <br>
+    
+     <ul class="social">
+         <li>
+                      <a href="https://linkedin.com/in/shrikant-kale-06a625140" />
+                      <i class="fab fa-linkedin big-icon" style="font-size:2.5rem; color:black"></i>
+                      </li> 
+                      <li>
+                      <a href="https://github.com/shrikale32">
+                      <i class="fab fa-github big-icon" style="font-size:2.5rem; color:black" ></i>
+                      </a></li>
+                      <li>
+                      <a href="https://drive.google.com/file/d/1mSnwOsTno_Xlms9dwb-9xaNTXVzRt6gM/view?usp=sharing">
+                      <img src="/Assets/images/cv.png" alt="Cv image" width="40" height="40">
+                      </li> </a>
+    </ul>
+
+     </div>
+     </div>
+     
+
+     
+
+
+
+  <% } %>
+
+

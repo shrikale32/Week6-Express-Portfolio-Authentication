@@ -1,0 +1,231 @@
+/* custom css goes here */
+
+    .text-block {
+      position: absolute;
+      font-family:"Times New Roman", Times, serif;;
+      font-size: 3vw;
+      top: 115px;
+      left: 25vw;
+      background-color: rgba(0, 0, 0, 0.938);
+      color: rgb(255, 255, 255);
+      padding-left: 60px;
+      padding-right: 70px;
+      padding-top: 10px;
+      padding-bottom:2px ;
+      text-align: center;
+      
+    }
+
+    .text-block2 {
+      position: absolute;
+      font-family:"Times New Roman", Times, serif;;
+      font-size: 2vw;
+      top: 325px;
+      left: 8vw;
+      background-color: rgba(0, 0, 0, 0.747);
+      color: rgb(255, 255, 255);
+      padding-left: 40px;
+      padding-right: 40px;
+      padding-top: 10px;
+      padding-bottom:2px ;
+      text-align: center;
+      
+    }
+
+    .container .btn {
+      position: absolute;
+      top: 530px;
+      left: 50vw;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      background-color: rgb(32, 29, 29);
+      color: white;
+      font-size: 1.5vw;
+      padding: 15px 26px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+      text-align: center;
+    }
+     
+    /*css for personal image on About Me page*/
+    .personal-image{
+      position: absolute;
+      right:13vw;
+    }
+     
+    /*Css for name and College*/
+    .text-block3 {
+      position: fixed;
+      font-family:'Montserrat';
+      font-weight:300;
+      top: 380px;
+      left: 0.5vw;
+      color: rgb(14, 11, 11);
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 10px;
+      padding-bottom:2px ;
+      text-align: center;
+      
+    }
+
+    .col-8{
+      top:90px;
+      width: 100%;
+      margin-right: 0;
+      margin-left: 0;
+    }
+
+    .col-4{
+      top:95px;
+      width: 100%;
+      margin-right: 0;
+     margin-left: 0;
+    }
+    
+    .about-me
+    {
+      position: fixed;
+      font-family:'Montserrat';
+      font-size: 1.5vw;
+      left:35vw;
+    }
+    
+    
+    .text-block3 li{
+      float: left;
+      padding: 22px;
+    }
+   
+    /*Styling for list of icons in About Me Page*/
+    ul{
+        list-style-type: none;
+    }
+
+    /* Styling for title in services.ejs*/
+    
+    .services
+    {
+      position: fixed;
+      top: 18%;
+      left:43vw;
+      font-weight:bold;
+      font-family:Montserrat;
+    }
+   
+    .col{
+      top:180px;
+      left:4vw;
+    }
+
+    /* Styling for Services icon on Services page*/
+    .icon
+    {
+      padding-left:120px;
+      padding-top: 60px;
+    }
+ 
+    .icon-caption
+    {
+      padding-left:70px;
+    }
+
+    .icon-caption2
+    {
+      padding-left:46px;
+    }
+
+   /* styling the title on projects page*/
+    .projects
+    {
+      position: fixed;
+      top: 18%;
+      left:43vw;
+      font-weight:bold;
+      font-family:Montserrat
+    }
+
+
+    .mainform {
+      min-height: 90%;
+      padding: 0;
+      margin: 0;
+      font-family: Roboto, Arial, sans-serif;
+      font-size: 14px;
+      color: #666;
+      }
+
+      h1 {
+        margin: 0 0 20px;
+        font-weight: 400;
+        color: #212c33;
+        }
+
+        p {
+        margin: 0 0 5px;
+        }
+        .main-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: #202425;
+        }
+
+        .getUserInfo {
+          padding: 40px;
+          margin: 35px;
+          box-shadow: 0 2px 5px #f5f5f5; 
+          background: #f5f5f5; 
+          }
+          
+          .form_element, textarea {
+        width: calc(70% - 18px);
+        padding: 8px;
+        margin-bottom: 20px;
+        border: 1px solid #223744;
+        outline: none;
+        }
+  
+        input::placeholder {
+        color: #666;
+        }
+
+        
+        form button {
+          width: 15%;
+          padding: 10px;
+          border: none;
+          background: #33576d; 
+          font-size: 16px;
+          font-weight: 400;
+          color: #fff;
+          }
+          button:hover {
+          background: #53bb58;
+          }    
+
+        @media (min-width: 568px) {
+          .main-block {
+          flex-direction: row;
+          }
+          }
+
+         .col-4
+         {
+           left:3vw;
+         }
+          
+         .social li{
+          float: left;
+          padding: 22px;
+         }
+      
+
+    
+  
+ 
+
+  

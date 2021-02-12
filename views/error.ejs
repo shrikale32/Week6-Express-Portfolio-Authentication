@@ -1,0 +1,17 @@
+<!-- remove title section in  for this to work -->
+
+<%- include partials/header.ejs %>
+<%- include partials/main_nav.ejs %>
+
+ <main class="container"> 
+<div class="jumbotron">
+<h2><%= error.status %></h2>
+<h2><%= message %></h2>
+ <pre><%= error.stack %></pre>
+</div>
+</main>
+
+
+  <%- include partials/bottom_nav.ejs %>
+  
+  <%- include partials/footer.ejs %>
