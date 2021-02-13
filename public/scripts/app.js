@@ -19,7 +19,6 @@
 
     // function to display user entered values in an alert box and redirect to HomePage
     function displayValues()
-
     {
         var name = document.getElementById("name").value;
         var email = document.getElementById("email").value;
