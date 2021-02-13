@@ -1,5 +1,10 @@
-/* custom css goes here */
+/* app. css :  custom css goes here */
+/*Name : Shrikant Kale*/
+/*Student ID: 301150258*/
+/* 13/02/2021*/
 
+    /*Styling for Home Page*/
+    /* css styling for Welcome text-block on Home Page*/
     .text-block {
       position: absolute;
       font-family:"Times New Roman", Times, serif;;
@@ -15,7 +20,7 @@
       text-align: center;
       
     }
-
+     /* styling for Mission Statement textbox on Welcome page*/
     .text-block2 {
       position: absolute;
       font-family:"Times New Roman", Times, serif;;
@@ -31,7 +36,8 @@
       text-align: center;
       
     }
-
+     
+    /*Styling for About Me button on Home Page*/
     .container .btn {
       position: absolute;
       top: 530px;
@@ -48,13 +54,14 @@
       text-align: center;
     }
      
-    /*css for personal image on About Me page*/
+    /*Styling for About Me Page*/
+    /*Css styling for personal image on About page*/
     .personal-image{
       position: absolute;
       right:14vw;
     }
      
-    /*Css for name and College*/
+    /*Css styling for name and College on About Page*/
     .text-block3 {
       position: fixed;
       font-family:'Montserrat';
@@ -69,7 +76,8 @@
       text-align: center;
       
     }
-
+     
+    /*styling for grid columns on About Page */
     .col-8{
       top:90px;
       width: 100%;
@@ -84,6 +92,7 @@
      margin-left: 0;
     }
     
+    /*Styling About Me title*/
     .about-me
     {
       position: fixed;
@@ -92,17 +101,18 @@
       left:35vw;
     }
     
-    
+    /*Styling for list of icons in About Me Page*/
     .text-block3 li{
       float: left;
       padding: 22px;
     }
    
-    /*Styling for list of icons in About Me Page*/
+    
     ul{
         list-style-type: none;
     }
-
+    
+    /*Styling for Services Page*/
     /* Styling for title in services.ejs*/
     
     .services
@@ -136,6 +146,7 @@
       padding-left:46px;
     }
 
+    /*Styling for Projects Page*/
    /* styling the title on projects page*/
     .projects
     {
@@ -146,7 +157,8 @@
       font-family:Montserrat
     }
 
-
+    /*Styling for Contacts Page*/
+   /*css styling for form on Contacts page*/
     .mainform {
       min-height: 90%;
       padding: 0;
@@ -212,12 +224,13 @@
           flex-direction: row;
           }
           }
-
+        
          .col-4
          {
            left:3vw;
          }
           
+         /*css styling for social icons on Contacts Page*/
          .social li{
           float: left;
           padding: 22px;

@@ -1,3 +1,9 @@
+
+// app. css :  custom javaScript goes here 
+// Name : Shrikant Kale
+// Student ID: 301150258
+// 13/02/2021
+
 //IIFE- immediately Invoked Function Expression
 (function(){
 
@@ -11,7 +17,7 @@
 })();
 
 
-    
+    // function to display user entered values in an alert box and redirect to HomePage
     function displayValues()
 
     {
