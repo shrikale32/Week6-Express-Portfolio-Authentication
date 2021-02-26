@@ -31,7 +31,8 @@
       <% } %>
         <a class="nav-link" href="/projects"> <i class="fas  fa-layer-group"></i> Projects</a>
       </li>
-      
+
+      <% if(typeof displayName == 'string' && displayName) { %>
        <% if (title == "Business Contacts") { %>
         <li class="nav-item active">
         <% } else  { %>
@@ -39,6 +40,7 @@
         <% } %>
           <a class="nav-link" href="/contact-list"><i class="fas fa-address-card"></i> Business Contacts </a>
         </li>
+        <% } %>
       
       <% if(title=="Services") {%>
           <li class="nav-item active">
