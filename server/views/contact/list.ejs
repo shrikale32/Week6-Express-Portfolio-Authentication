@@ -13,9 +13,10 @@
             <h3><%= title %></h3>
             <br>
                <% if(typeof displayName == 'string' && displayName) { %>
-            <a href="/book-list/add" class="btn btn-primary" role="button">
-            <i class="fas fa-plus-circle">Add a Contact</i> </a>
+            <a href="/contact-list/add" class="btn btn-primary" role="button">
+              <i class="fas fa-plus-circle"></i> Add a Contact</a>
             <% } %>
+           
 
             <table class="table table-bordered table-striped table-hover">
                 <!-- Header Row-->
@@ -28,10 +29,10 @@
                     <th class="text-center col-2"></th>
                     <th class="text-center col-2"></th>
                     <% } else { %>
-                    <th class="text-center col-2">Name</th>
-                    <th class="text-center col-2">Email</th>
-                    <th class="text-center col-2">Phone</th>
-                    <th class="text-center col-2">Company</th>
+                    <th class="text-center col-3">Name</th>
+                    <th class="text-center col-3">Email</th>
+                    <th class="text-center col-3">Phone</th>
+                    <th class="text-center col-3">Company</th>
                     <% } %>                    
 
 
@@ -46,7 +47,7 @@
                         <td class="text-center col-2"><%= ContactList[count].email %></td>
                         <td class="text-center col-2"><%= ContactList[count].phone %></td>
                         <td class="text-center col-2"><%= ContactList[count].company %></td>
-                        <td class="text-center col-2">
+                       <td class="text-center col-2">
                             <a href="/contact-list/edit/<%= ContactList[count]._id %>" class="btn btn-primary btn-sm">
                             <i class="fas fa-pencil-alt"></i> Edit</a>
                         </td>
@@ -55,10 +56,10 @@
                             <i class="fas fa-trash-alt"></i> Delete</a>
                         </td>
                         <% } else { %>
-                        <td class="text-center col-2"><%= ContactList[count].name %></td>
-                        <td class="text-center col-2"><%= ContactList[count].email %></td>
-                        <td class="text-center col-2"><%= ContactList[count].phone %></td>
-                        <td class="text-center col-2"><%= ContactList[count].company %></td>
+                        <td class="text-center col-3"><%= ContactList[count].name %></td>
+                        <td class="text-center col-3"><%= ContactList[count].email %></td>
+                        <td class="text-center col-3"><%= ContactList[count].phone %></td>
+                        <td class="text-center col-3"><%= ContactList[count].company %></td>
                        <% } %>
 
 

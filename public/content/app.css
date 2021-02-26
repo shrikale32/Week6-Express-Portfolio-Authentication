@@ -38,7 +38,7 @@
     }
      
     /*Styling for About Me button on Home Page*/
-    .container .btn {
+    .aboutRedirect .container .btn {
       position: absolute;
       top: 530px;
       left: 50vw;
