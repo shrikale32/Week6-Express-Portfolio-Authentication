@@ -1,6 +1,6 @@
 {
-  "name": "comp229-w2021-portfolio-site",
-  "version": "0.0.1",
+  "name": "comp229-portfolio-site-authentication",
+  "version": "0.0.2",
   "private": true,
   "scripts": {
     "start": "node ./server.js"
@@ -21,17 +21,17 @@
     "morgan": "~1.9.1",
     "popper.js": "^1.16.1"
   },
-  "description": "Express Portfolio Site",
-  "main": "app.js",
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/shrikale32/COMP229-Week4-PortfolioSite.git"
-  },
-  "author": "Shrikant Kale",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/shrikale32/COMP229-Week4-PortfolioSite/issues"
-  },
-  "homepage": "https://github.com/shrikale32/COMP229-Week4-PortfolioSite#readme"
+"description": "Express Portfolio Site",
+"main": "server.js",
+"devDependencies": {},
+"repository": {
+  "type": "git",
+  "url": "git+https://github.com/shrikale32/Week6-Express-Portfolio-Authentication.git"
+},
+"author": "Shrikant Kale",
+"license": "ISC",
+"bugs": {
+  "url": "https://github.com/shrikale32/Week6-Express-Portfolio-Authentication.git/issues"
+},
+"homepage": "https://github.com/shrikale32/Week6-Express-Portfolio-Authentication.git#readme"
 }
