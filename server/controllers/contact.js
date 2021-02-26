@@ -5,8 +5,10 @@ let mongoose = require('mongoose');
 // create a reference to the model
 let Contact = require('../models/contact');
 
+//sort db entreis in alphabetical order
+var mysort = {name: 1};
 module.exports.displayContactList = (req, res, next) => {
-    Contact.find((err, contactList) => {
+    Contact.find((err, contactList ) => {
         if(err)
         {
             return console.error(err);
@@ -19,7 +21,7 @@ module.exports.displayContactList = (req, res, next) => {
              ContactList: contactList, 
             displayName: req.user ? req.user.displayName: ''});      
         }
-    });
+    }).sort(mysort);
 }
 
 module.exports.displayAddPage = (req, res, next) => {
@@ -45,6 +47,7 @@ module.exports.processAddPage = (req, res, next) => {
         {
             // refresh the contact list
             res.redirect('/contact-list');
+            
         }
     });
 
