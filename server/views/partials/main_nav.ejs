@@ -58,8 +58,9 @@
         <a class="nav-link"  href="/contact"> <i class="fas  fa-mobile-alt"></i> Contact</a>
       </li>
 
+        <!-- Guard logic for Welcome Message and Logout -->
         <% if(typeof displayName == 'string' && displayName) { %>
-          <li class="navbar-text"><i class="fas fa-sm fa-user"></i> Welcome, <%= displayName %></li>
+          <li class="navbar-text active" ><i class="fas fa-sm fa-user"></i> Welcome, <%= displayName %></li>
           <li class="nav-item"><a href="/logout" class="nav-link">
             <i class="fas fa-sm fa-sign-out-alt"></i> Logout</a></li>
         <% } else { %>
